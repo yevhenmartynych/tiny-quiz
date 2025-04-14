@@ -1,0 +1,110 @@
+@import url('../node_modules/papercss/dist/paper.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+  --bg-color: #e1e1e1;
+  --main-font: 'Patrick Hand', cursive;
+}
+/* 
+* {
+  outline: 1px solid red;
+} */
+
+h1,
+h2,
+p {
+  font-family: var(--main-font) !important;
+}
+
+h2,
+h3 {
+  margin: 1rem 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.grid-bg {
+  width: 100%;
+  height: 100%;
+
+  background-color: #f3f3f3;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--bg-color) 25%,
+      var(--bg-color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--bg-color) 75%,
+      var(--bg-color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--bg-color) 25%,
+      var(--bg-color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--bg-color) 75%,
+      var(--bg-color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
+}
+
+.container {
+  height: 100vh;
+}
+
+/* reusable styles */
+
+.d-flex {
+  display: flex;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.f-align {
+  align-items: center;
+}
+
+.f-justify {
+  justify-content: center;
+}
+
+.f-align-start {
+  align-items: flex-start;
+}
+
+.f-justify-between {
+  justify-content: space-between;
+}
+
+.f-gap-sm {
+  gap: 1rem;
+}
+
+.f-gap-m {
+  gap: 2rem;
+}
+
+.f-gap-lg {
+  gap: 3rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}

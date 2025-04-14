@@ -28,7 +28,7 @@
 
 Перевір **Tiny Quiz** в дії, натиснувши на кнопку нижче:
 
-[![🎯 Відкрити Quiz](https://img.shields.io/badge/🎯-Відкрити_Quiz-yellow)](https://your-website-url.com)
+[![🎯 Відкрити Quiz](https://img.shields.io/badge/🎯-Відкрити_Quiz-yellow)](https://tiny-quiz.netlify.app/)
 
 ## ✨ Можливості
 

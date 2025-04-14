@@ -19,7 +19,7 @@
 
 ## 📦 Встановлення
 
-git clone
-cd tiny-quiz
-nmp i
-npx serve
+- git clone
+- cd tiny-quiz
+- nmp i
+- npx serve

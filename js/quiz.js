@@ -1,5 +1,5 @@
 import { fetchQuestions } from './api.js'
-import { decodeHtmlEntities, shuffleArray } from './utils.js'
+import { decodeHtmlEntities, shuffleArray, showConfetti } from './utils.js'
 
 export class Quiz {
   constructor(questionKey) {
@@ -153,6 +153,10 @@ export class Quiz {
         correctAnswer: decodeHtmlEntities(currentQuestion.correct_answer),
         isCorrect: selectedAnswer.value === currentQuestion.correct_answer,
       })
+
+      if (nextBtn.textContent === 'Finish') {
+        showConfetti()
+      }
 
       if (this.currentIndex === this.questions.length - 1) {
         this.isQuizOver = true

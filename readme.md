@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  Проста та легка вікторина, що дозволяє перевірити твої знання в різних категоріях.
+  A simple, lightweight quiz that lets you test your knowledge across different categories.
 </p>
 
 <div align="center">
@@ -24,61 +24,61 @@
   </a>
 </div>
 
-## 🎮 Демо
+## 🎮 Demo
 
-Перевір **Tiny Quiz** в дії, натиснувши на кнопку нижче:
+See **Tiny Quiz** in action by clicking the button below:
 
-[![🎯 Відкрити Quiz](https://img.shields.io/badge/🎯-Відкрити_Quiz-yellow)](https://tiny-quiz.netlify.app/)
+[![🎯 Open Quiz](https://img.shields.io/badge/🎯-Open_Quiz-yellow)](https://tiny-quiz.netlify.app/)
 
-## ✨ Можливості
+## ✨ Features
 
-**Tiny Quiz** поєднує у собі задоволення та навчання з такими можливостями:
+**Tiny Quiz** combines fun and learning with these features:
 
-- 🎯 **Налаштування**: Обирай категорію та рівень складності.
-- 🔄 **Динамічні питання**: Питання випадковим чином завантажуються з [OpenTDB API](https://opentdb.com/).
-- 📊 **Аналіз відповідей**: Вікторина з автоматичним підрахунком результатів. (розробка в процесі!).
-- 💾 **Збереження прогресу**: Збереження прогресу та налаштувань у `localStorage`.
-- 📱 **Адаптивний дизайн**: Стильний інтерфейс, адаптований під різні пристрої, з використанням [Paper CSS](https://www.getpapercss.com/).
+- 🎯 **Customization**: Choose a category and difficulty level.
+- 🔄 **Dynamic questions**: Questions are loaded at random from the [OpenTDB API](https://opentdb.com/).
+- 📊 **Answer analysis**: Quiz with automatic score calculation. (work in progress!).
+- 💾 **Progress saving**: Progress and settings are saved in `localStorage`.
+- 📱 **Responsive design**: A stylish interface that adapts to different devices, built with [Paper CSS](https://www.getpapercss.com/).
 
-## 🛠️ Технології
+## 🛠️ Technologies
 
-**Tiny Quiz** створений з використанням сучасних веб-технологій:
+**Tiny Quiz** is built with modern web technologies:
 
 - 🌐 **HTML5**
 - 🎨 **CSS (Paper CSS)**
 - 🚀 **Vanilla JavaScript (ES Modules)**
 - 🧠 **Open Trivia Database API**
 
-## 📦 Встановлення
+## 📦 Installation
 
-Щоб запустити проєкт локально:
+To run the project locally:
 
-1. **Клонуйте репозиторій**:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/yevhenmartynych/tiny-quiz.git
    ```
-2. **Перейдіть у каталог проєкту**:
+2. **Go to the project directory**:
    ```bash
    cd tiny-quiz
    ```
-3. **Запустіть локальний сервер**:
+3. **Start a local server**:
 
    ```bash
    npx serve
    ```
 
-4. **Відкрийте браузер** і перейдіть за посиланням:
+4. **Open your browser** and go to:
    ```bash
    http://localhost:3000
    ```
 
-> 💡 **Tip**: Переконайтесь, що у вас встановлений [Node.js](https://nodejs.org/), щоб користуватись npx serve.
+> 💡 **Tip**: Make sure you have [Node.js](https://nodejs.org/) installed to use npx serve.
 
-## ❤️‍🔥 Подобається цей проєкт?
+## ❤️‍🔥 Like this project?
 
-Залиш ⭐, якщо вважаєш цей проєкт крутим!
+Leave a ⭐ if you think this project is cool!
 
-## 👨‍💻 Контакти
+## 👨‍💻 Contact
 
 [![Discord](https://img.shields.io/badge/Discord-yevhenmartynych-7289DA?logo=discord&logoColor=white)](https://discordapp.com/users/1263123671707418736) </br>
 [![GitHub](https://img.shields.io/badge/GitHub-yevhenmartynych-181717?logo=github)](https://github.com/yevhenmartynych)
